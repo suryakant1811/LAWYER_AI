@@ -9,6 +9,5 @@ def get_intent_node(state: ConversationState):
     user_input = state["user_query"]
     prompt = get_intent_prompt(user_input)
     response = llm.invoke(prompt)
-    state["intent"] = response.content
-    print("Exiting intent node")
+    state["intent_and_domain"] = response.content
     return state

@@ -17,24 +17,13 @@ class ConversationState(MessagesState):
     user_query: str = ""
 
     # ===== Understanding =====
-    intent: str = ""
-    domain: str = ""
-    confidence: float = 0.0
+    intent_and_domain : str = ""
 
     # ===== Extracted Information =====
-    entities: dict[str, Any] = Field(default_factory=dict)
-
+    # entities: dict[str, Any] = Field(default_factory=dict)
+    follow_up_questions: list[str]
     # ===== Conversation =====
-    missing_information: list[str] = Field(default_factory=list)
+    additinal_information: list[str] = Field(default_factory=list)
 
-    # ===== Retrieval =====
-    retrieved_documents: list[Any] = Field(default_factory=list)
-
-    # ===== Planning =====
-    action_plan: list[str] = Field(default_factory=list)
-
-    # ===== Final Answer =====
-    response: str = ""
-
-    # ===== Metadata =====
-    metadata: dict[str, Any] = Field(default_factory=dict)
+    user_answers: str = ""
+    
