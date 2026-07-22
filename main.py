@@ -15,8 +15,6 @@ result = workflow.invoke(
     config=config
 )
 
-print(result["intent_and_domain"])
-
 # print(result)
 
 result2 = workflow2.invoke(
@@ -30,7 +28,4 @@ result2 = workflow2.invoke(
     }
 )
 
-
-print(result2["route"])
-# print(result2["retrieved_context"])
 print(result2)
