@@ -28,4 +28,4 @@ result2 = workflow2.invoke(
     }
 )
 
-print(result2)
+print(result2["action_plan"])
