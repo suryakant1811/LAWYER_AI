@@ -29,10 +29,10 @@ class ConversationState(MessagesState):
 
     route: str = ""
 
-retrieved_context: str = ""
+    retrieved_context: str = ""
 
-reasoning: str = ""
+    reasoning: str = ""
 
-action_plan: str = ""
+    action_plan: str = ""
 
-final_response: str = ""
+    final_response: str = ""

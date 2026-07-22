@@ -32,3 +32,5 @@ result2 = workflow2.invoke(
 
 
 print(result2["route"])
+# print(result2["retrieved_context"])
+print(result2)
