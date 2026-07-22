@@ -28,4 +28,4 @@ result2 = workflow2.invoke(
     }
 )
 
-print(result2["rights"])
+print(result2["complaint_draft"])
