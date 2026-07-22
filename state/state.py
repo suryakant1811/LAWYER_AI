@@ -26,4 +26,13 @@ class ConversationState(MessagesState):
     additinal_information: list[str] = Field(default_factory=list)
 
     user_answers: str = ""
-    
+
+    route: str = ""
+
+retrieved_context: str = ""
+
+reasoning: str = ""
+
+action_plan: str = ""
+
+final_response: str = ""
