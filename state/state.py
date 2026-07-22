@@ -35,4 +35,8 @@ class ConversationState(MessagesState):
 
     action_plan: str = ""
 
+    rights: str = ""
+
+    complaint_draft: str = ""
+
     final_response: str = ""
