@@ -1,5 +1,5 @@
 from langchain_chroma import Chroma
-from RAG.embeddings import get_embeddings
+from .embeddings import get_embeddings
 
 def create_vector_db(chunks):
     embeddings = get_embeddings()
