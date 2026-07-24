@@ -37,6 +37,8 @@ class ConversationState(MessagesState):
 
     rights: str = ""
 
-    complaint_draft: str = ""
+    complaint: str = ""
 
     final_response: str = ""
+
+    sources: list

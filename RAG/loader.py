@@ -12,48 +12,36 @@
 #     documents = loader.load() #  Read all matching files and convert them into LangChain Document objects.
 
 #     return documents
-
 import os
-
-from langchain_community.document_loaders import (
-    PyPDFLoader,
-    TextLoader
-)
+from langchain_core.documents import Document
 
 
-def load_documents(root_folder):
+def load_documents(folder_path):
 
     documents = []
 
-    for root, _, files in os.walk(root_folder):
+    for root, _, files in os.walk(folder_path):
 
         for file in files:
 
-            path = os.path.join(root, file)
-
-            extension = file.split(".")[-1].lower()
-
-            if extension == "pdf":
-
-                loader = PyPDFLoader(path)
-
-            elif extension in ["md", "txt"]:
-
-                loader = TextLoader(path, encoding="utf-8")
-
-            else:
-
+            if not file.endswith(".md"):
                 continue
 
-            docs = loader.load()
+            filepath = os.path.join(root, file)
+
+            with open(filepath, "r", encoding="utf-8") as f:
+                text = f.read()
 
             domain = os.path.basename(root)
 
-            for doc in docs:
-
-                doc.metadata["domain"] = domain
-                doc.metadata["filename"] = file
-
-            documents.extend(docs)
+            documents.append(
+                Document(
+                    page_content=text,
+                    metadata={
+                        "domain": domain,
+                        "source": file
+                    }
+                )
+            )
 
     return documents

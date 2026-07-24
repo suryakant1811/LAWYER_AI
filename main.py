@@ -9,7 +9,7 @@ config = {
 }
 result = workflow.invoke(
     {
-        "user_query": "Someone stole ₹30,000 using OTP fraud."
+        "user_query": "Someone stole my OTP."
     },
     config=config
 )
@@ -19,15 +19,32 @@ result2 = workflow2.invoke(
         "user_query": result["user_query"],
         "intent_and_domain": result["intent_and_domain"],
         "user_answers": """
-State: Punjab
-No FIR
-Transaction: UPI
+Name : Surya
+
+State : Punjab
+
+City : Jalandhar
+
+Fraud Type : OTP Scam
+
+Amount : ₹30,000
+
+Platform : UPI
+
+Transaction Date : Yesterday
+
+Transaction ID : 987654321
+
+Bank : SBI
+
+FIR Filed : No
+
+Evidence :
+- SMS
+- Screenshot
+- Bank Statement
 """
     }
 )
 
-print(result2["retrieved_context"])
-print(result2["reasoning"])
-print(result2["action_plan"])
-print(result2["rights"])
-print(result2["complaint_draft"])
+print(result2["final_response"])

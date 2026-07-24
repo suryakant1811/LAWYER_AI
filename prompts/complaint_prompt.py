@@ -17,13 +17,22 @@ Do NOT:
 - Add events that were not described by the user.
 - Change the user's version of events.
 
-If any important information is missing, insert placeholders like:
+Use every value available in "Additional Information".
 
-[Date]
-[Time]
-[Location]
-[Police Station]
-[Transaction ID]
+If a field exists there, NEVER replace it with a placeholder.
+
+Only use placeholders for information that is genuinely missing.
+
+For example:
+
+If State = Punjab
+→ write Punjab
+
+If Amount = ₹30,000
+→ write ₹30,000
+
+If Transaction ID is not available
+→ write [Transaction ID]
 
 -------------------------
 User Query
@@ -35,10 +44,12 @@ Additional Information
 -------------------------
 {state["user_answers"]}
 
+
+
 -------------------------
-Legal Reasoning
+Retrieved Context
 -------------------------
-{state["reasoning"]}
+{state["retrieved_context"]}
 
 -------------------------
 Draft the complaint
@@ -60,4 +71,14 @@ Return ONLY the complaint.
 Do not include explanations.
 Do not include markdown.
 Do not include notes.
+
+1. Use all available user information.
+2. Never replace existing values with placeholders.
+3. Keep the complaint factual.
+4. Write in official Indian complaint format.
+5. Mention the authority relevant to the case.
+6. Mention the requested action.
+7. Mention evidence provided by the user.
+8. Return only the complaint.
+
 """

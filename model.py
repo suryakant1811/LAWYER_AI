@@ -11,6 +11,6 @@ def get_llm():
         # google_api_key=os.getenv("GEMINI_API_KEY"),
             model="llama-3.3-70b-versatile",
             model_provider="groq",
-            api_key=os.getenv("GROQ_API_KEY"),
+            api_key=os.getenv("GROQ_API_KEY_BACKUP"),
     )
     return llm

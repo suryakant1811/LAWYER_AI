@@ -12,22 +12,19 @@
 #     state["retrieved_context"] = "\n\n".join(documents)
 #     return state
 
-from RAG.retrieve import retrieve
+from RAG.retrieve import get_retriever
 
 
 def get_retriever_node(state):
 
     print("We are on Retriever Node")
 
-    docs = retrieve(state["user_query"])
+    result = get_retriever(
+        state["user_query"],
+        state["route"]
+    )
 
-    context = ""
-
-    for doc in docs:
-
-        context += doc.page_content
-        context += "\n\n"
-
-    state["retrieved_context"] = context
+    state["retrieved_context"] = result["context"]
+    state["sources"] = result["sources"]
 
     return state

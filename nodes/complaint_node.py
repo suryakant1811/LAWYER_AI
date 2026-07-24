@@ -7,5 +7,5 @@ llm = get_llm()
 def get_complain_node(state: ConversationState):
     print("We are on complain Node")
     response = llm.invoke(get_complaint_prompt(state))
-    state['complaint_draft'] = response.content
+    state['complaint'] = response.content
     return state
