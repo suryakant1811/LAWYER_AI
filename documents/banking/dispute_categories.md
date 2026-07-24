@@ -1,0 +1,22 @@
+# Banking Dispute Categories
+
+- Unauthorized Transactions
+- Cheque Bounce
+- Loan Default
+- SARFAESI
+- Account Freezing
+- Loan Delay
+- Locker Disputes
+- NPA Classification
+- Guarantor Liability
+- Cooperative Banks
+- KYC Issues
+- PMLA Freezes
+- UPI Fraud
+- Digital Lending
+- Mis-selling
+- Wilful Defaulter
+- Bank Charges
+- NRI Banking
+- FEMA
+- Cross Border Remittance

@@ -1,6 +1,44 @@
+<<<<<<< HEAD
 .env
 __pycache__/
 *.pyc
 venv/
 .venv/
 Agent/.git_backup/
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python build
+build/
+dist/
+*.egg-info/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+>>>>>>> 42e9932b7113ed62a0cca09c2b3827f24baebfff
