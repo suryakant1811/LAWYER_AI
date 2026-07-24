@@ -1,0 +1,206 @@
+# CYBERCRIME LAW — INDIA (Legal Knowledge Base for RAG)
+
+## 1. CONSTITUTIONAL BASIS
+
+### Article 19(1)(a) — Freedom of speech and expression
+Central to cyber-law jurisprudence: online speech, social media posts, and messaging enjoy Article 19(1)(a) protection, subject to reasonable restrictions under Article 19(2) (public order, defamation, decency/morality, security of the state). Vague or overbroad restrictions on online speech have repeatedly been struck down as unconstitutional.
+
+### Article 21 — Right to life, personal liberty, and privacy
+The right to privacy was recognised as intrinsic to Article 21 in **K.S. Puttaswamy v. Union of India, (2017) 10 SCC 1**, which underpins subsequent cyber-law disputes over data breaches, surveillance, and non-consensual sharing of private images/videos. Article 21 is also invoked in "digital arrest" scam cases and cyberstalking matters involving coercion and mental trauma.
+
+### Article 14 — Equality before law
+Used to challenge arbitrary or discriminatory blocking of accounts/content, or unequal application of intermediary-liability rules between similarly placed platforms.
+
+### Article 32 and Article 226 — Constitutional remedies
+Writ petitions have been the primary route for challenging IT Act provisions and government blocking orders — most notably in the Section 66A challenge (see Section 4.1 below) and in challenges to intermediary-rules provisions requiring traceability of message originators.
+
+---
+
+## 2. KEY STATUTES GOVERNING CYBERCRIME IN INDIA
+
+### 2.1 Information Technology Act, 2000 (as amended by the IT (Amendment) Act, 2008)
+The primary legislation, enacted 9 June 2000 and in force from 17 October 2000, giving legal recognition to electronic transactions/records and criminalising a range of computer-related offences. The 2008 amendment substantially expanded criminal provisions after the original Act was found inadequate for emerging threats like identity theft and cyberterrorism.
+
+Key sections:
+- <cite index="34-1">Section 43 provides civil liability — compensation for unauthorised access to, or damage caused to, a computer, computer system, or computer network without the owner's permission, covering acts such as introducing viruses, damaging data, and disrupting systems.</cite>
+- <cite index="35-1">Section 65 — tampering with computer source documents (concealing, destroying, or altering source code), punishable with imprisonment up to 3 years or fine up to ₹2 lakh, or both.</cite>
+- <cite index="35-1">Section 66 — criminalises the acts described in Section 43 when done dishonestly or fraudulently, punishable with imprisonment up to 3 years or fine up to ₹5 lakh, or both.</cite>
+- **Section 66A** — formerly punished sending "offensive," "menacing," or false messages via a communication service; **struck down in its entirety as unconstitutional** by the Supreme Court in *Shreya Singhal v. Union of India* (2015) for vagueness and overbreadth violating Article 19(1)(a). It remains void, though police in some states have been noted to continue invoking it in error — a point litigated further in subsequent contempt/compliance petitions.
+- <cite index="28-1">Section 66B — punishes dishonestly receiving a stolen computer resource or communication device, with imprisonment up to 3 years and/or fine up to ₹1 lakh.</cite>
+- <cite index="32-1">Section 66C — criminalises identity theft, i.e., fraudulent use of another person's electronic signature, password, or other unique identification feature, punishable with imprisonment up to 3 years and fine up to ₹1 lakh.</cite>
+- <cite index="33-1">Section 66D — punishes cheating by personation using a computer resource (e.g., phishing, fake profiles used to defraud), with imprisonment up to 3 years and fine up to ₹1 lakh.</cite>
+- <cite index="32-1">Section 66E — punishes violation of privacy through capturing, publishing, or transmitting images of a person's private area without consent, punishable with imprisonment up to 3 years or fine up to ₹2 lakh, or both — the primary provision used in voyeurism and non-consensual image-sharing cases.</cite>
+- <cite index="32-1">Section 66F — punishes cyber terrorism, covering acts threatening the unity, integrity, security, or sovereignty of India through cyberspace, punishable with imprisonment up to life.</cite>
+- <cite index="28-1">Section 67 — punishes publishing or transmitting obscene material in electronic form, with imprisonment up to 3 years and fine up to ₹5 lakh for a first conviction, rising to 5 years and ₹10 lakh for subsequent convictions.</cite>
+- Section 67A — enhanced punishment (up to 5/7 years) for publishing/transmitting material containing sexually explicit acts.
+- <cite index="30-1">Section 67B — specifically criminalises child sexual abuse material (depicting children in obscene/sexually explicit acts), punishable with imprisonment up to 5 years and fine up to ₹10 lakh for a first conviction.</cite>
+- <cite index="30-1">Section 69 — empowers the government to intercept, monitor, or decrypt information in the interest of the sovereignty/integrity of India, defence, security of the state, public order, or preventing incitement to a cognisable offence.</cite>
+- Section 69A — empowers the government to direct blocking of public access to information/websites on the same grounds as Section 69, subject to procedural safeguards under the Information Technology (Procedure and Safeguards for Blocking) Rules, 2009.
+- Section 70 — protects "protected systems" (critical infrastructure) with enhanced penalties for unauthorised access.
+- Section 79 — the "safe harbour" provision granting intermediaries (platforms, ISPs) conditional exemption from liability for third-party content, provided they observe due diligence under the IT Rules and do not have "actual knowledge" of unlawful content (interpreted narrowly in *Shreya Singhal* to require a court/government order, not private notice, before removal obligations trigger).
+- Section 43A — obliges a body corporate handling "sensitive personal data" to maintain reasonable security practices, with civil liability for negligence causing wrongful loss/gain.
+
+### 2.2 Bharatiya Nyaya Sanhita, 2023 (BNS) — overlapping provisions
+The BNS, which replaced the Indian Penal Code from 1 July 2024, is frequently invoked alongside the IT Act for cyber-enabled offences: cheating (Section 318, corresponding to former IPC Section 420), criminal intimidation, defamation, and forgery of electronic records. Cyber fraud FIRs typically cite both IT Act sections (66C/66D) and the equivalent BNS cheating/forgery provisions.
+
+### 2.3 Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) — procedural law
+Replaced the Code of Criminal Procedure, 1973, from 1 July 2024; governs procedure for search, seizure, arrest, and investigation of cyber offences, including provisions recognising electronic FIR filing (via the Zero FIR mechanism, applicable to cybercrime portal complaints as well).
+
+### 2.4 Bharatiya Sakshya Adhiniyam, 2023 (BSA) — evidentiary law
+Replaced the Indian Evidence Act, 1872, from 1 July 2024. Governs admissibility of electronic records; carries forward (with modifications) the certification requirement for electronic evidence earlier interpreted under Section 65B of the 1872 Act in *Arjun Panditrao Khotkar v. Kailash Kushanrao Gorantyal* (2020), which held that a Section 65B(4)-equivalent certificate is mandatory for secondary electronic evidence (subject to limited exceptions).
+
+### 2.5 Digital Personal Data Protection Act, 2023 (DPDPA)
+India's dedicated data-protection statute, governing collection, processing, and breach-notification obligations of "Data Fiduciaries." Overlaps with IT Act Section 43A on data-security obligations; breach of personal data can trigger both DPDPA penalties (imposed by the Data Protection Board) and consumer/civil claims.
+
+### 2.6 Prevention of Money Laundering Act, 2002 (PMLA)
+Frequently invoked in large-scale cyber-fraud/investment-scam cases where proceeds are laundered through mule accounts and shell entities; enforcement agencies can attach/freeze accounts holding proceeds of cyber fraud.
+
+### 2.7 POCSO Act, 2012 — overlap with cyber offences against children
+Online sexual exploitation of minors (grooming, CSAM circulation) is prosecuted under POCSO alongside IT Act Sections 67B, given POCSO's specific child-protection framework and sentencing structure.
+
+---
+
+## 3. REGULATORY AND GRIEVANCE MECHANISMS
+
+### 3.1 Indian Cyber Crime Coordination Centre (I4C)
+<cite index="42-1">A body under the Ministry of Home Affairs coordinating the national response to cybercrime, structured around several operational verticals, the most citizen-facing of which is the National Cyber Crime Reporting Portal.</cite> I4C also runs public-awareness campaigns (e.g., "Cyber Dost") and has coordinated blocking of SIM cards/messaging accounts linked to large-scale scam networks.
+
+### 3.2 National Cyber Crime Reporting Portal (cybercrime.gov.in)
+<cite index="38-1">Enables citizens to report all types of cybercrime, with special focus on offences against women and children; complaints are converted into FIRs and investigated by the concerned State/UT law-enforcement agency as per applicable procedure.</cite>
+
+### 3.3 Cyber Crime Helpline — 1930
+<cite index="37-1">A 24/7 national toll-free number for reporting cybercrime, especially financial fraud, operated by the I4C; it replaced the earlier 155260 number in 2021.</cite> <cite index="38-1">It operates through the Citizen Financial Cyber Fraud Reporting and Management System, launched in 2021 for immediate reporting of financial frauds to stop siphoning of funds.</cite> <cite index="41-1">Reporting promptly — ideally within the first hour — significantly improves the chance of a bank freeze and reversal, since recovery odds drop sharply as funds are layered through multiple mule accounts.</cite>
+
+### 3.4 CERT-In (Indian Computer Emergency Response Team)
+The national nodal agency for responding to cybersecurity incidents, issuing advisories, and mandating incident-reporting timelines (currently within 6 hours of noticing certain categories of incidents) for corporates, intermediaries, and data centres under its 2022 directions.
+
+### 3.5 State Cyber Cells
+Each state maintains a dedicated cyber-crime police cell (e.g., in Mumbai, Bengaluru, Hyderabad) for investigation, forensic analysis, and coordination with I4C on escalations involving inter-state or cross-border elements.
+
+### 3.6 Adjudicating Officers under the IT Act
+Section 46 empowers the Central Government to appoint Adjudicating Officers (typically the State IT Secretary) to decide civil compensation claims under Section 43 for unauthorised access/damage, providing a faster alternative to civil suits for computer-related damage claims.
+
+---
+
+## 4. LANDMARK CASE LAW
+
+### 4.1 Shreya Singhal v. Union of India, (2015) 5 SCC 1
+- <cite index="33-1">The Supreme Court struck down Section 66A of the IT Act as unconstitutional, holding the provision vague, overly broad, and violative of the fundamental right to free speech under Article 19(1)(a).</cite>
+- The Court also read down Section 79 and the associated Intermediary Guidelines, holding that an intermediary's obligation to remove content is triggered only upon actual knowledge via a court order or government notification — not upon private complaint alone — to prevent private censorship.
+- This remains the foundational judgment on the boundary between online-speech regulation and free expression in India, and is cited in nearly every subsequent challenge to content-blocking or intermediary-liability rules.
+
+### 4.2 K.S. Puttaswamy v. Union of India, (2017) 10 SCC 1
+A nine-judge bench unanimously held that the right to privacy is a fundamental right intrinsic to Article 21, providing the constitutional foundation for later data-protection and digital-surveillance jurisprudence, including challenges to government data-collection programmes and the eventual enactment of the DPDPA, 2023.
+
+### 4.3 Arjun Panditrao Khotkar v. Kailash Kushanrao Gorantyal, (2020) 7 SCC 1
+A Constitution Bench clarified that a certificate (then under Section 65B(4) of the Evidence Act, now carried forward under the BSA) is a mandatory precondition for admitting secondary electronic evidence — directly relevant to how cybercrime prosecutions must prove electronic records (chat logs, CDRs, transaction data) in court.
+
+### 4.4 Avnish Bajaj v. State (NCT of Delhi), Delhi High Court (2008) and related proceedings
+Arose from obscene content sold via an online marketplace (the "DPS MMS case"); examined the criminal liability of an intermediary's directors for third-party content hosted on the platform, an early precursor to the intermediary "actual knowledge" standard later clarified in *Shreya Singhal*.
+
+### 4.5 Poona Auto Ancillaries Pvt. Ltd. v. Punjab National Bank (Adjudicating Officer, Maharashtra, 2013)
+An early and often-cited Adjudicating Officer decision awarding compensation under Section 43 to a company defrauded through a phishing/social-engineering attack that led to unauthorised fund transfers, holding the bank partly liable for inadequate security safeguards — illustrative of the civil-compensation route under the IT Act as distinct from criminal prosecution.
+
+---
+
+## 5. COMMON DISPUTE CATEGORIES (for RAG retrieval tagging)
+
+1. UPI/net-banking/card fraud, phishing, and "collect request" scams (Sections 66C, 66D IT Act + BNS cheating provisions).
+2. Identity theft and fake social-media profile impersonation (Section 66C/66D).
+3. Cyberstalking, online harassment, and threats via messaging platforms.
+4. Non-consensual sharing of private images/videos, "revenge porn," and voyeurism (Section 66E).
+5. Sextortion and "digital arrest" scams (impersonating law-enforcement/regulatory officials to extort money).
+6. Publishing/circulating obscene material or child sexual abuse material (Sections 67, 67A, 67B + POCSO overlap).
+7. Ransomware, hacking, and unauthorised access/data destruction (Sections 43, 65, 66).
+8. Data breaches by companies and consequent Section 43A / DPDPA liability.
+9. Cyber terrorism and attacks on protected/critical-infrastructure systems (Sections 66F, 70).
+10. Online investment/crypto scams and Ponzi schemes routed through mule accounts (overlap with PMLA).
+11. Intermediary/platform liability disputes — takedown requests, safe-harbour defences under Section 79.
+12. Government blocking orders under Section 69A and challenges to their proportionality/procedure.
+13. Cross-border cybercrime and jurisdictional/mutual-legal-assistance challenges.
+14. Corporate cybersecurity compliance and CERT-In incident-reporting obligations.
+15. Admissibility disputes over electronic evidence (certification requirements under the BSA).
+
+---
+
+## 6. QUICK-REFERENCE NUMBERS TABLE
+
+| Item | Threshold / Limit |
+|---|---|
+| National Cyber Crime Helpline | 1930 (24/7, toll-free) |
+| Predecessor helpline (replaced in 2021) | 155260 |
+| Reporting portal | cybercrime.gov.in |
+| Section 66 (computer-related offences) punishment | Up to 3 years imprisonment and/or fine up to ₹5 lakh |
+| Section 66C (identity theft) punishment | Up to 3 years imprisonment and fine up to ₹1 lakh |
+| Section 66D (cheating by personation) punishment | Up to 3 years imprisonment and fine up to ₹1 lakh |
+| Section 66E (privacy violation) punishment | Up to 3 years imprisonment or fine up to ₹2 lakh, or both |
+| Section 66F (cyber terrorism) punishment | Imprisonment up to life |
+| Section 67 (obscene material, first/subsequent conviction) | Up to 3 years/₹5 lakh; up to 5 years/₹10 lakh |
+| Section 67B (child sexual abuse material, first conviction) | Up to 5 years imprisonment and fine up to ₹10 lakh |
+| CERT-In cybersecurity incident reporting window (2022 directions) | Within 6 hours of noticing the incident |
+| Optimal window to report a fraudulent transaction for freeze/reversal chance | Within the first hour (best); reporting delay sharply reduces recovery odds |
+
+*(Note: All figures should be cross-verified against the current text of the IT Act, the BNS/BNSS/BSA, and the latest CERT-In/MeitY directions in force at the time of use, as cyber-law thresholds and reporting timelines are revised periodically.)*
+
+---
+
+## 7. KEY DEFINITIONS / GLOSSARY (for retrieval precision)
+
+- **Intermediary:** Any person who, on behalf of another, receives, stores, or transmits electronic records or provides a service with respect to such records (ISPs, social media platforms, marketplaces) — governed by Section 79's safe-harbour provision.
+- **Actual Knowledge (intermediary liability):** Per *Shreya Singhal*, knowledge triggered only by a court order or a government notification directing takedown — not a private complaint alone.
+- **Identity Theft (Section 66C):** Fraudulent or dishonest use of another person's electronic signature, password, or other unique identification feature.
+- **Cheating by Personation (Section 66D):** Cheating by pretending to be another person through a computer resource or communication device — the core provision for phishing and fake-profile fraud.
+- **Sensitive Personal Data or Information (SPDI):** Categories of personal data (financial information, health records, biometric data, passwords) requiring "reasonable security practices" under Section 43A and the SPDI Rules, 2011.
+- **Zero FIR:** An FIR that can be registered at any police station regardless of jurisdiction, later transferred to the appropriate station — relevant where cybercrime portal complaints are converted to FIRs across state lines.
+- **Mule Account:** A bank account used (often by an unwitting or complicit account holder) to receive and rapidly move fraudulently obtained funds, a key target of the 1930 helpline's freeze mechanism.
+- **Digital Arrest Scam:** A social-engineering fraud where scammers impersonate police/regulatory/judicial officials over video call, falsely claiming the victim is under investigation or "digital arrest," to coerce payment.
+- **Safe Harbour:** The legal protection under Section 79 shielding intermediaries from liability for user-generated content, conditional on due diligence and lack of actual knowledge.
+- **Section 65B Certificate (now under the BSA):** A mandatory certification requirement for admitting secondary electronic evidence (call records, WhatsApp chats, CCTV footage) in court, per *Arjun Panditrao Khotkar*.
+
+---
+
+## 8. RECENT REGULATORY TRENDS (context for evolving queries)
+
+- I4C and the Ministry of Home Affairs have escalated action against "digital arrest" and investment-scam networks, including large-scale blocking of SIM cards and WhatsApp accounts traced to foreign-based fraud operations.
+- The transition to the BNS/BNSS/BSA framework from 1 July 2024 means cyber-fraud FIRs now cite BNS provisions (e.g., Section 318 for cheating) rather than the corresponding IPC sections, alongside the unchanged IT Act cyber-specific sections.
+- The DPDPA, 2023's rules and the Data Protection Board's enforcement mechanism are still being operationalised, creating overlap and some uncertainty with the older Section 43A/SPDI Rules framework for data-breach liability.
+- CERT-In's 2022 directions (mandatory 6-hour incident reporting, VPN/data-center logging requirements) remain a significant compliance burden debated by industry, with continuing calls for clarification of scope.
+- Courts continue to grapple with the tension between government blocking powers under Section 69A and free-speech protections, in the shadow of the *Shreya Singhal* precedent, particularly around AI-generated deepfakes and synthetic media.
+- The rise of UPI-linked fraud has pushed RBI and I4C to tighten coordination — the 1930 helpline's fund-freeze mechanism is now the primary practical recovery route for victims, functioning ahead of any court process.
+
+---
+
+## 9. FREQUENTLY ASKED QUESTIONS (RAG-friendly Q&A pairs)
+
+**Q1: I just made a fraudulent UPI payment — what should I do immediately?**
+A: Call the 1930 helpline immediately (ideally within the first hour) and file a complaint at cybercrime.gov.in; also inform your bank/payment service provider directly to request an account freeze. Preserve screenshots of the transaction, the UPI request, and any related chat/call records as evidence.
+
+**Q2: Someone created a fake profile impersonating me online — what law applies?**
+A: This falls under Section 66C (identity theft) and/or Section 66D (cheating by personation) of the IT Act, alongside relevant BNS provisions for cheating/defamation if financial or reputational harm resulted. File a complaint on the National Cyber Crime Reporting Portal or at your local cyber cell.
+
+**Q3: Can someone still be booked under Section 66A for an offensive online post?**
+A: No — Section 66A was struck down as unconstitutional in *Shreya Singhal v. Union of India* (2015) and is void. Any FIR invoking it alone is legally unsustainable, though the same conduct may still attract other provisions (BNS defamation/intimidation, IT Act Section 67, etc.) depending on the facts.
+
+**Q4: My private photos were shared online without my consent — what recourse do I have?**
+A: Section 66E of the IT Act criminalises capturing, publishing, or transmitting images of a person's private area without consent (imprisonment up to 3 years and/or fine up to ₹2 lakh). Depending on the content, Section 67/67A may also apply, and you can report it via the National Cyber Crime Reporting Portal, which prioritises complaints involving women and children.
+
+**Q5: I received a video call claiming I'm under "digital arrest" for a crime — is this real?**
+A: No Indian law enforcement or court conducts arrests or investigations via video call demanding immediate payment; this is a known scam pattern. Do not transfer money — report immediately to 1930 and the cybercrime portal.
+
+**Q6: Is a screenshot of a WhatsApp chat admissible as evidence in a cybercrime case?**
+A: Yes, but as secondary electronic evidence it generally requires an accompanying certificate under the Bharatiya Sakshya Adhiniyam (carrying forward the requirement clarified in *Arjun Panditrao Khotkar* under the earlier Evidence Act) confirming its authenticity and the manner of its generation/storage.
+
+**Q7: Can a social media platform be held liable for content posted by a user?**
+A: Generally no, under the Section 79 safe-harbour provision — provided the platform observes due diligence obligations and did not have "actual knowledge" (via court/government order) of the unlawful content and failed to act on it, per the standard set in *Shreya Singhal*.
+
+---
+
+- Always distinguish the **civil remedy** (Section 43 compensation before an Adjudicating Officer) from the **criminal remedy** (FIR/prosecution under Sections 66 onward) for computer-related damage — both can be pursued for the same conduct.
+- For any fraud-recovery query, stress the time-sensitivity of the 1930 helpline mechanism, since fund-freeze success rates fall sharply with delay.
+- For content-related offences, check whether Section 66A is being (wrongly) invoked, since it remains void post-*Shreya Singhal* despite occasional continued use by police.
+- For evidentiary questions, confirm whether the electronic record is primary (e.g., an original device) or secondary (a copy/printout/screenshot), since only the latter requires the BSA certification requirement.
+- Cross-reference offences involving minors with POCSO, since IT Act Section 67B and POCSO operate in parallel with POCSO's stricter child-specific safeguards typically taking precedence in sentencing.
+- Flag that all specific figures (helpline numbers, fine amounts, reporting windows) should be checked against the current statute/notification, since the BNS/BNSS/BSA transition and periodic CERT-In directions can alter procedural requirements.
+
+---
+*Compiled from India Code, MeitY/CERT-In/I4C publications, PIB releases, and case-law commentary for RAG knowledge-base use — Cybercrime domain. Verify numerical thresholds, monetary limits, and procedural timelines against the latest government notification before relying on them in an active matter, as these are subject to periodic revision.*

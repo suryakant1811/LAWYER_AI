@@ -1,0 +1,22 @@
+# Common Cybercrime Categories
+
+- OTP Fraud
+- UPI Fraud
+- Net Banking Fraud
+- Credit Card Fraud
+- Fake KYC Scam
+- Fake Loan Scam
+- Fake Profile
+- Identity Theft
+- Cyber Stalking
+- Sextortion
+- Digital Arrest Scam
+- Revenge Porn
+- Ransomware
+- Hacking
+- Data Breach
+- Child Sexual Abuse Material
+- Investment Scam
+- Crypto Scam
+- Ponzi Scheme
+- Cyber Terrorism
